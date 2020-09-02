@@ -26,6 +26,7 @@ Team management APIs for listing, creating, updating and deleting team records.
 <code>
    http://localhost:8000/admin
 </code>
+
    It should show a login window. This shows that project is ready to use APIs.
    
    
