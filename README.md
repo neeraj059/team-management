@@ -3,9 +3,12 @@ Team management APIs for listing, creating, updating and deleting team records.
 
 <h3>Setup:</h3>
 
-1. Checkout the repository. Make sure docker compose is installed in your system.
+1. Clone the repository. Make sure docker compose is installed in your system.
+<code>
+  git clone https://github.com/neeraj059/team-management.git
+ </code>
 
-2. Run below command inside parent repository folder.
+2. Run below command inside team-management folder.
 <code>
   sudo docker-compose build
 </code>
@@ -28,7 +31,11 @@ Team management APIs for listing, creating, updating and deleting team records.
 </code>
 
    It should show a login window. This shows that project is ready to use APIs.
+   If localhost is not accessible, then restart server -
    
+<code>
+   sudo docker-compose down && sudo docker-compose up -d
+</code>
    
  <h3>Usage:</h3>
  
