@@ -33,7 +33,9 @@ Team management APIs for listing, creating, updating and deleting team records.
  <h3>Usage:</h3>
  
  <h4>API Doc: </h4>
-      API doc can be accessed at 
+      API doc can be accessed at
+      
+
 <code>
   http://localhost:8000/redoc/
 </code>
