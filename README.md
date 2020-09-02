@@ -6,14 +6,22 @@ Team management APIs for listing, creating, updating and deleting team records.
 1. Checkout the repository. Make sure docker compose is installed in your system.
 
 2. Run below command inside parent repository folder.
+<code>
   sudo docker-compose build
+</code>
 
 3. Bring up localhost server 
+<code>
   sudo docker-compose up -d
-  
+</code>
+
+
  4. Run migrations
+ <code>
   docker-compose run web python manage.py migrate
-  
+</code>
+
+
  5. Check localhost is accessible at 
 <code>
    http://localhost:8000/admin
