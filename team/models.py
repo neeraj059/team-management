@@ -37,5 +37,4 @@ class TeamMembers(AbstractBaseUser):
 
     is_active = models.BooleanField(_('Is User Active'), default=True)
 
-    date_joined = models.DateTimeField(_('Date Joined'),
-                                       default=timezone.now())
+    date_joined = models.DateTimeField(_('Date Joined'), auto_now_add=True)
