@@ -18,7 +18,7 @@ Team management APIs for listing, creating, updating and deleting team records.
 
  4. Run migrations
  <code>
-  docker-compose run web python manage.py migrate
+  sudo docker-compose run web python manage.py migrate
 </code>
 
 
